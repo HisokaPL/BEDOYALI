@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>FORMULARIO</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <!--NAVEGATION BARR-->
+    <header>
+        <nav class="menu">
+            <div class="log-box">
+                <h1>BEDOYA <span class="typing">LIQUOR´S</span></h1>
+                <span class="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+    
+            <div class="list-container">
+                <ul class="lists">
+                    <li><a href="" class="active">Inicio</a></li>
+                    <li><a href="">Cuentas</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Ventas</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    
+       </header>
+
+
+    <!--FORMULARIO CUENTAS-->
+    <section class="form-calcu">
+    <form action="">
+        <h4>Tabla de Cuentas</h4>
+        <input class="operacion" type="number" name="X" id="num1" value="">
+        <input class="operacion" type="number" name="y" id="num2" value="">
+    </form>
+    <button class="bottom" onclick="pluss()">Calcular</button>
+</section>
+
+<script type="text/javascript">
+    function pluss()
+    {
+        var Number1 = parseInt(document.getElementById('num1').value);
+        var Number2 = parseInt(document.getElementById('num2').value);
+        var Result;
+        Result = Number1 - Number2;
+        swal({
+  title: "EL RESULTADO ES",
+  text: "$ "+Result,
+  icon: "success",
+  button: "FINALIZAR",
+});
+    }
+    </script>
+    <script src="/jS/scrip.js"></script>
+</body>
+</html>
