@@ -27,7 +27,7 @@ body {
 }
 
 .menu .btn-menu {display: none;}
-.menu .log-box {margin-left: 50px;}
+.menu .log-box {margin-left: -50px;}
 .menu .log-box h1 {
     font-size: 30px;
     color: #fff;
