@@ -83,6 +83,7 @@ body {
     box-shadow: 7px 13px 37px #000;
 }
 .form-calcu h4 {
+    position: center;
     font-size: 24px;
     margin-bottom: 20px;
     color: #FFF;
